@@ -1,0 +1,82 @@
+body{
+     margin:0;
+    width:100%;
+    height:100vh;
+    background-color:rgb(18, 18, 30);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Outfit', sans-serif;
+}
+main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.card{
+    width:300px;
+    height:500px;
+    background-color:rgb(27, 27, 48);
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.img{
+    width:100%;
+    border-radius:10px;
+}
+h1{
+    color:white;
+    margin:0;
+    font-size:20px;
+}
+.description{
+    color:rgb(120, 150, 220);
+    font-size:15px;
+    margin:0;
+}
+.ethr{
+    display:flex;
+    justify-content:space-between;
+    border-bottom: 0.05px solid rgb(60, 60, 60);
+    padding-block-end:10px;
+}
+.ETH, .clock{
+    display:flex;
+    gap:8px;
+    align-items:center;
+    margin:0;
+
+}
+.ETH{
+    color:rgb(58, 204, 222);
+    font-weight:bold;
+
+}
+.clock{
+    color:rgba(181, 186, 191, 0.838);
+}
+.ETH_Creator{
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+}
+.creator{
+     color:rgba(112, 144, 170, 0.838);
+
+}
+.avatar{
+    border-radius:50%;
+    border:1px solid white;
+    width:35px;    
+}
+.name{
+   color:rgba(181, 186, 190, 0.838);
+}
+
+
+    
